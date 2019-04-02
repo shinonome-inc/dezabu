@@ -23,6 +23,7 @@ body{
     height: 62px;
 }
 .topright{
+    color: white;
     background-color: aqua;
     max-width: 550px;
     text-align: left;
@@ -36,4 +37,10 @@ body{
     margin: .5em 0;
     font-size: 1em;
     white-space: pre-wrap;
+}
+.card-text{
+    color:#555;
+    margin: 0 0 5px;
+    font-size: 1.3em;
+    font-weight: 700;
 }
