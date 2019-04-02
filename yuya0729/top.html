@@ -13,20 +13,50 @@
   <body>
     <header>
       <img src="https://nana-eyelash.com/img/base/hd-logo.png" width="110" height="38" alt="" class="logo mx-5 my-5">
+      <div class="wrapper">
+        <div class="menu-trigger" href="">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" class="td-n menu">MENU1</a></li>
+            <li><a href="#" class="td-n menu">MENU2</a></li>
+            <li><a href="#" class="td-n menu">MENU3</a></li>
+          </ul>
+        </nav>
+        <div class="overlay"></div>
+      </div>
     </header>
     <main>
-      <section class="content">
-        <section id="hero">
-          <div class="hero-main row px-5">
-            <div class="nana col-3">
-              NANA
-            </div>
-            <div class="photo col-9">
-              <img src="https://nana-eyelash.com/img/top/hero-img01.jpg" alt="" class="w-100 pr-5">
-            </div>
+      <div class="content mx-5">
+        <section id="hero" class="row">
+          <div class="title col-4">
+            <h1>NANA</h1>
+            <h6>Eyelash Extensions Salon.</h6>
+            <img src="https://nana-eyelash.com/img/top/line-naname.png" alt="" width="72px">
+            <ul>
+              <li>Milano</li>
+              <li>Le Rochelle</li>
+              <li>Lisbon</li>
+            </ul>
+          </div>
+          <div class="photo-show col-8">
+            <img src="https://nana-eyelash.com/img/top/hero-img01.jpg" alt="" class="w-100 pr-5">
+            <img src="https://nana-eyelash.com/img/top/hero-img02.jpg" alt="" class="w-100 pr-5">
+            <img src="https://nana-eyelash.com/img/top/hero-img03.jpg" alt="" class="w-100 pr-5">
+            <img src="https://nana-eyelash.com/img/top/hero-img04.jpg" alt="" class="w-100 pr-5">
           </div>
         </section>
-      </section>
+        <!-- <section id="sec01">
+          <div class="row">
+            <div class="col-5">
+              <img src="https://nana-eyelash.com/img/top/sec01-img01-sp.png" alt="">
+            </div>
+          </div>
+        </section> -->
+      </div>
     </main>
     <footer>
 
@@ -36,5 +66,26 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- ハンバーガーバーメニューのscript -->
+    <script type="text/javascript">
+      $('.menu-trigger').on('click', function() {
+        if ($(this).hasClass('active')) {
+          $(this).removeClass('active');
+          $('nav').removeClass('open');
+          $('.overlay').removeClass('open');
+        } else {
+          $(this).addClass('active');
+          $('nav').addClass('open');
+          $('.overlay').addClass('open');
+        }
+      });
+      $('.overlay').on('click', function() {
+        if ($(this).hasClass('open')) {
+          $(this).removeClass('open');
+          $('.menu-trigger').removeClass('active');
+          $('nav').removeClass('open');
+        }
+      });
+    </script>
   </body>
 </html>
