@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #eaedf2;
+}
+.wrap{
+    margin: 0 auto;
+}
+#header{
+    background-color: #58a9ef;
+    max-width: 100%;
+}
+#logo{
+    display: inline-block;
+    height: 62px;
+    line-height: 62px;
+    margin: 0 5px 0 0;
+    text-align: left;
+    width: auto;
+}
+#logo img{
+    display: inline-block;
+    height: 62px;
+}
+.topright{
+    background-color: aqua;
+    max-width: 550px;
+    text-align: left;
+}
+.topmidashi{
+    margin: 0 0 5px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.toptext{
+    margin: .5em 0;
+    font-size: 1em;
+    white-space: pre-wrap;
+}
