@@ -7,13 +7,18 @@ img{
     display:inline-block;
 }
 
+a:hover{
+    color:none;
+}
+
 .container{
     padding:0px;
     margin:0px;
     max-width:1980px;
+
 }
 .w-nav{
-    height:200px;
+    height:150px;
 }
 .nav-logo{
     display:inline-block;
@@ -69,6 +74,18 @@ h1{
     font-weight: bold;
 }
 
+.header-text{
+    color:#fff;
+    font-size:60px;
+    letter-spacing: -2px;
+    font-weight:bold;
+    margin-bottom:50px;
+}
+
+.header-text-blue{
+    color:#003286;
+}
+
 .project{
     height:200px;
     border-bottom:solid 8x #0055ce;
@@ -95,11 +112,22 @@ h1{
     background:red;
 }
 
-.hr-blue{
+.hr{
     height:8px;
-    background-color: #0055ce;
-    /*border-bottom: solid 8px #005ce;*/
+}
 
+.hr-blue{
+    background-color: #0055ce;
+}
+
+.hr-white{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.hr-thin{
+    height:5px;
+    background-color: black;
 }
 
 .header{
@@ -144,6 +172,10 @@ a:hover{
     margin-left: -10%;
 }
 
+.person{
+    position: relative;
+}
+
 .person-img{
     width:400px;
     left: 0px;
@@ -151,13 +183,13 @@ a:hover{
     display: block;
 }
 
-.person-img-1-overray{
+.person-img-overlay{
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
-.person-img-1-overray:hover{
+.person-img-overlay:hover{
     opacity: 0;
 }
 
@@ -173,4 +205,48 @@ a:hover{
     font-size: 24px;
     font-weight: 400;
     text-align: left;
+}
+
+.email-link{
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.email-link:hover .hr{
+    transform: scaleX(1);
+}
+
+.email-link .hr{
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+
+}
+
+.header-link-a{
+    font-size:60px;
+    color:#fff;
+}
+
+.header-link-a:hover{
+    color:#fff;
+}
+
+.footer-p-bold ,.paragraph{
+    color:#fff;
+    font-size:20px;
+    line-height:1.8;
+}
+
+.footer-containts{
+    float:left;
+}
+
+.footer-arrow{
+    margin-top:220px;
+    float:right;
+}
+
+
+.footer-img{
+    width:50px;
 }
