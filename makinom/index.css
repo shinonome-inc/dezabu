@@ -28,6 +28,10 @@ body{
     max-width: 550px;
     text-align: left;
 }
+.btn-primary{
+    margin: 15px;
+    background: #58a9ef;
+}
 .topmidashi{
     margin: 0 0 5px;
     font-size: 1.3em;
