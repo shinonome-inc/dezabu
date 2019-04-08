@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    background-color:  rgb(173, 119, 119);
+}
+
+.hero{background-image: url("kv2.jpg");
+   width: 50%;
+    }
+
+
+
+h1{
+    z-index: 1;
+    position: absolute;
+    color:black;
+    padding: 50%;
+
+}
+
+p{
+    text-align: center;
+    text-orientation: upright;
+}
