@@ -1,4 +1,6 @@
-body{
+.sita{
+    width:auto;
+    height:auto;
     padding: 100px;
     background-color: black;
 }
@@ -7,12 +9,35 @@ body{
 h1{
     margin-bottom: 50px;
 }
-.btn {
-   margin-left:250px;
+
+.e{
+    width:200px;
+    height:200px;
+}
+
+.btn{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   border-radius: 0%;
+   
 }
 
 
 
+img{
+    width:500px;
+    height:400px;
+    margin-bottom:200px;
+
+}
+
+.uhu{
+    width:20px;
+    height:auto;
+}
 
 p{
   color: gray;
@@ -24,11 +49,9 @@ p{
     color:gray;
 }
 
-.e{
-    width:200px;
-    height:100px;
+.ehu{
+    width:30px;
+    height:30px;
+    text-align:right;
 }
 
-#e{
-    
-}
