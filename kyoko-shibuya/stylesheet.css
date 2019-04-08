@@ -1,6 +1,7 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
+    margin:0px;
+
 }
 
 img{
@@ -14,21 +15,30 @@ a:hover{
 .container{
     padding:0px;
     margin:0px;
-    max-width:1980px;
+    max-width:100%;
+}
 
-}
-.w-nav{
-    height:150px;
-}
 .nav-logo{
     display:inline-block;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 .nav{
     float:right;
 }
 
-.hero{
-    height:600px;
+.nav-link{
+    padding:40px 30px;
+    font-size:20px;
+    color:black;
+}
+
+.nav-link-home{
+    color:#005cef;
+}
+
+.nav-link-contact{
+    padding-right:0px;
 }
 
 h1{
@@ -51,19 +61,29 @@ h1{
     position: relative;
     z-index: 900;
     display:block;
+    margin-right:auto;
+    margin-left:auto;
+    width: 85%;
+}
+
+.hero{
+    position: relative;
+    padding-top:100px;
+    padding-bottom:120px;
 }
 
 .hero-yajirushi{
     height: 130px;
+    margin-top:30px
 }
 
 .section{
     position: relative;
+    padding:100px 0px 100px 0px;
 }
 
 .section-blue{
     position: relative;
-    height:700px;
     background-color: #005cef;
 }
 
@@ -87,8 +107,8 @@ h1{
 }
 
 .project{
-    height:200px;
     border-bottom:solid 8x #0055ce;
+    padding-top:50px;
 }
 
 .project-subtitle {
@@ -101,8 +121,8 @@ h1{
     color:red;
     display:inline-block;
     font-size: 70px;
-    line-height: 80px;
     font-weight: 600;
+    margin-bottom:50px;
 }
 .project-arrow{
     float:right;
@@ -139,7 +159,7 @@ h1{
 .services-body{
     font-weight: 500;
     text-align: justify;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 
 .services-link{
@@ -177,9 +197,9 @@ a:hover{
 }
 
 .person-img{
+    position: relative;
     width:400px;
     left: 0px;
-    bottom: 0px;
     display: block;
 }
 
@@ -190,7 +210,14 @@ a:hover{
 }
 
 .person-img-overlay:hover{
+    position: absolute;
     opacity: 0;
+}
+
+.kage_1{
+    position: absolute;
+    width:427px;
+    right:451px;
 }
 
 .person-title{
@@ -198,6 +225,8 @@ a:hover{
     font-size:50px;
     text-align:left;
     font-weight:600;
+    margin-top:20px;
+    margin-top:20px;
 }
 
 .person-label{
@@ -249,4 +278,8 @@ a:hover{
 
 .footer-img{
     width:50px;
+}
+
+.blue-2{
+    height:800px;
 }
