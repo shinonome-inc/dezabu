@@ -198,6 +198,7 @@ a:hover{
 
 .person-img{
     position: relative;
+    left: 27px;
     width:400px;
     display: block;
 }
