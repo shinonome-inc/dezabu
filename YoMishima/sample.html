@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    section {
+      width: 780px;
+      margin: 0 auto;
+      margin-top: 120px;
+      padding: 48px;
+      /* background-color: red; */
+    }
+    .box {
+      line-height: 34px;
+      position: relative;
+    }
+    .circle {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: yellow;
+    }
+    .box:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 164px;
+      height: 164px;
+      background-color: yellow;
+      border-radius: 50%;
+      right: 0;
+      bottom: 0;
+    }
+    .box p {
+      position: relative;
+      z-index: 22;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="box">
+      <p>
+        ウェブに特化したフリーランスデザイナーです。
+        自ら行うグラフィックデザインを軸にサイト設計からコーディングまで対応しています。
+        お客様が持っている大切な価値を利用者にわかりやすく伝えることを第一とし、
+        モバイル・スマートフォンに対応するためレスポンシブWebデザインにて設計します。
+        デザインはHTMLとCSSにて忠実に、またSEOを踏まえた正しい文法でコーディングします。
+        SNSとの連携やサイトのメンテナンス性も重視します。
+        過去のクリエイティブはかわいいものからシャープなものまでいろいろな方向性に対応していますが、
+        デザインの引き出しが多い訳ではなく、
+        いずれもお客様の意図を理解し閲覧者に納得していただけるものを目指した結果です。
+        これまでご依頼いただいていますお客様にはショップオーナー様、
+        企業のホームページ担当者様、また制作会社様など様々ですが真摯にかつ柔軟に対応しています。
+        ウェブサイトに関することはお気軽にご相談ください。
+      </p>
+    </div>
+    <!-- <div class="circle"></div>     -->
+  </section>
+</body>
+</html>
