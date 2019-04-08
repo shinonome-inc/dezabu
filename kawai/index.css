@@ -1,24 +1,139 @@
 @charset "UTF-8";
 
-*{
-    background-color:  rgb(173, 119, 119);
+body{
+    font-family: 'Rotis Serif W01', 'ヒラギノ明朝 ProN W3', 'HiraMinProN-W3', YuMincho, '游明朝', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.7);
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "halt";
+    
 }
 
-.hero{background-image: url("kv2.jpg");
-   width: 50%;
-    }
+.box{
+    height: 0;
+    padding-top: 66.51%;
+    background: url("kv2.jpg") 0 0 no-repeat;
+    background-size: contain;
+    
+}
 
-
-
-h1{
-    z-index: 1;
+.main-logo{
     position: absolute;
-    color:black;
-    padding: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+
+    width: 153px;
+    height: 56px;
+    z-index: 1;
 
 }
 
-p{
+.buttom{
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: 20px;
+    margin: auto;
+
+
+   
+}
+
+
+.main-logo img{
+    max-width: 150px;
+}
+
+
+
+p.into{ 
+    color: black;
+    writing-mode: vertical-rl;
+    height: 565px;
+    width: 217px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.pictures1 .pictures2{
+    position: relative;
+
+}
+
+img{
+    position: relative;
+}
+
+.comment{
+    position: absolute;
+    z-index: 1;
+    color: white;
+
+
+}
+
+#2{
+    right: 0px;
+
+}
+
+
+.box2{
+    padding: 20px;
+    margin: auto;
+
+}
+
+.pictures1{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.pictures2{
+    width: 33.33%;
+    height: 33.33%;
+}
+
+.img1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box3{
+    display: block;
     text-align: center;
-    text-orientation: upright;
+    right:0;
+    left: 0;
+    margin: auto;
+    bottom: 20px;
+
+}
+
+.box4{
+    display: block;
+    float: left;
+    bottom: 10px;
+}
+
+.box5{
+    display: block;
+    right:0;
+    bottom: 10px;
 }
