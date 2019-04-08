@@ -30,3 +30,7 @@
     width: 200px;
     margin: 0 auto;
 }
+
+.aboutTxt{
+    line-height: 2.5;
+}
