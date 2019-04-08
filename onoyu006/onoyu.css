@@ -33,4 +33,8 @@
 
 .aboutTxt{
     line-height: 2.5;
+    display: block;
+}
+.aboutCase{
+    display: block;
 }
