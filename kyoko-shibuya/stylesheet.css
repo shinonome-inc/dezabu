@@ -199,14 +199,12 @@ a:hover{
 .person-img{
     position: relative;
     width:400px;
-    left: 0px;
     display: block;
 }
 
 .person-img-overlay{
     position: absolute;
     top: 0px;
-    right: 0px;
 }
 
 .person-img-overlay:hover{
@@ -217,7 +215,6 @@ a:hover{
 .kage_1{
     position: absolute;
     width:427px;
-    right:451px;
 }
 
 .person-title{
