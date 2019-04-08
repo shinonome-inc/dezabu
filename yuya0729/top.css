@@ -371,6 +371,7 @@ body {
 
 .sec04-menu > p {
   font-size: 90%;
+  display: inline-block;
 }
 
 .sec04-menu > p > span {
@@ -445,8 +446,9 @@ body {
 #sec06 {
   margin-top: 150px;
   height: 800px;
-  margin-left: 150px;
-  margin-right: 150px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  justify-content: center;
 }
 
 .sec06-title > h3 {
@@ -459,7 +461,8 @@ body {
 }
 
 .sec06-block {
-  padding-right: 10px;
+  padding-left: 22.5px;
+  padding-right: 22.5px;
 }
 
 .sec06-block a {
