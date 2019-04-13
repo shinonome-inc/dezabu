@@ -64,6 +64,7 @@ h1{
     margin-right:auto;
     margin-left:auto;
     width: 85%;
+    max-width:1980px;
 }
 
 .hero{
@@ -88,27 +89,32 @@ h1{
 }
 
 .w-title-blue{
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 120px;
     color:#005cef;
     font-weight: bold;
+    letter-spacing: -4;
 }
 
 .header-text{
     color:#fff;
     font-size:60px;
-    letter-spacing: -2px;
-    font-weight:bold;
+    letter-spacing: -1px;
+    font-weight:550;
     margin-bottom:50px;
+    max-width:1300px;
 }
 
 .header-text-blue{
     color:#003286;
 }
 
+.paragraph{
+    max-width:1000px;
+}
+
 .project{
     border-bottom:solid 8x #0055ce;
-    padding-top:50px;
+    padding-top:40px;
 }
 
 .project-subtitle {
@@ -122,14 +128,16 @@ h1{
     display:inline-block;
     font-size: 70px;
     font-weight: 600;
-    margin-bottom:50px;
+    margin-bottom:40px;
 }
 .project-arrow{
     float:right;
 }
 
 .section-red{
+    position: relative;
     background:red;
+    height:2000px;
 }
 
 .hr{
@@ -152,7 +160,7 @@ h1{
 
 .header{
     color:white;
-    font-size: 120px;
+    font-size: 110px;
     font-weight: 600;
 }
 
@@ -178,8 +186,8 @@ a:hover{
     text-decoration: none;
 }
 
-.team{
-    padding:100px 0px;
+.team-body{
+    padding-top:100px;
 }
 
 .team-bg{
@@ -198,8 +206,8 @@ a:hover{
 
 .person-img{
     position: relative;
-    left: 27px;
-    width:400px;
+    left: 23px;
+    width:350px;
     display: block;
 }
 
@@ -215,16 +223,16 @@ a:hover{
 
 .kage_1{
     position: absolute;
-    width:427px;
+    width: 373px;
 }
 
 .person-title{
     color:white;
-    font-size:50px;
+    font-size:40px;
     text-align:left;
-    font-weight:600;
-    margin-top:20px;
-    margin-top:20px;
+    font-weight:550;
+    margin-top:40px;
+    margin-bottom:0px;
 }
 
 .person-label{
@@ -232,6 +240,24 @@ a:hover{
     font-size: 24px;
     font-weight: 400;
     text-align: left;
+    margin:0px;
+}
+
+.is-right{
+    float:right;
+}
+
+.person-dog{
+    margin-top:-200px;
+}
+
+.person-woman{
+    margin-top:190px;
+}
+
+.person-bowz{
+    margin-right:50px;
+    margin-top:-150px;
 }
 
 .email-link{
