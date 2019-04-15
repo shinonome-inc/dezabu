@@ -1,12 +1,18 @@
+
 body{
     background-color:#a3b5c0;
     color: white;
-    
+     }
+
+
+
+ul {
+    text-align: right;
 
     }
-
+    
 li {
     display: inline;
-    float: right;
+    padding: 10px;
     }
-
+    
