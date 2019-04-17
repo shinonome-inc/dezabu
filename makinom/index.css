@@ -22,6 +22,11 @@ body{
     display: inline-block;
     height: 62px;
 }
+
+nav ul{
+    display:inline-block;
+    vertical-align: top;
+}
 .topright{
     color: white;
     background-color: aqua;
@@ -47,4 +52,8 @@ body{
     margin: 0 0 5px;
     font-size: 1.3em;
     font-weight: 700;
+}
+#footer-menu{
+    background-color: #58a9ef;
+    max-width: 100%;
 }
