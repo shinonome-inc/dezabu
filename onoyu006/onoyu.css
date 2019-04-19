@@ -38,3 +38,42 @@
 .aboutCase{
     display: block;
 }
+.caseTxt{
+    display: block;
+    width:200px;
+    height: 100px;
+}
+
+
+.box {
+    height: 12vw;
+    width: 12vw;
+    background-color: transparent;
+    position: relative;
+  }
+  .box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+    width: calc(100% - 20px);
+    /* background-color: green; */
+    border-radius: 50%;
+    border: solid 2px white;
+  }
+  .box:after {
+    content: "";
+    overflow:hidden;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    width: 50%;
+    background-color: black;
+  }
+  .box .content {
+    position: relative;
+    z-index: 22;
+  }
