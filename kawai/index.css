@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Rotis Serif W01', 'ヒラギノ明朝 ProN W3', 'HiraMinProN-W3', YuMincho, '游明朝', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 300;
     line-height: 1;
@@ -22,26 +22,20 @@ body{
     
 }
 
-#logo{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    margin: auto;
-
-    width: 153px;
-    height: 56px;
-    z-index: 1;
+#logo1{
+   width: 130px;
+   height: auto;
 
 }
 
 .buttom{
     position: absolute;
     color: white;
-    right: 20px;
-    bottom: 20px;
+    right: 25px;
+    bottom: 25px;
     margin: auto;
+    padding: 15px 40px;
+    border: 0.5px solid white;
 
 
    
@@ -52,38 +46,70 @@ body{
     max-width: 150px;
 }
 
+.into{
+    display: block;
+    margin: 60px;
+}
 
+@media screen and (min-width:992px){
+    .into{
+     writing-mode: vertical-rl;
+    }
+  }
 
-.into{ 
-    color: black;
-    writing-mode: vertical-rl;
-    height: 565px;
-    width: 217px;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+.into p{
+    margin: 10px;
 }
 
 .comment{
     position: absolute;
-    z-index: 1;
+    font-size: 1.3rem;
     color: white;
+    right: 30px;
+    top: 30px;
 }
 
 .box2{
     padding: 20px;
 }
 
-.col-sm-6{
+.col-lg-6{
     padding: 0;
 }
 
-.col-sm-4{
+.col-lg-4{
     padding: 0;
 
 }
 
+.box3{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#box3-top{
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    position: relative; 
+}
+
+.h-underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 50px;
+    height: 1px;
+    margin: auto;
+    background: currentColor;
+    content: "";
+    opacity: 0.3;
+}
+
+.info p{
+    margin: 20px;
+}
 
 .box4{
     display: block;
