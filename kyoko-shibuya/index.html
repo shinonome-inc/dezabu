@@ -8,11 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <title>origin/kyoko</title>
   </head>
   <body>
-      <div class="container">
+      <div id="container" class="container">
           <div class="wrapper">
            <div class="w-nav">
               <a href="#">
@@ -33,6 +34,23 @@
                 <a class="nav-link nav-link-contact" href="#">Contact</a>
               </li>
               </ul>
+
+              <div class="nav-small">
+                  <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Link with href
+                    </a>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Button with data-target
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                  </div>
+            </div>
+             
               <div class="hr hr-thin"></div>
               
            </div>
@@ -44,14 +62,14 @@
                 <div class="wrapper">
                   <h1 class="hero-title">Hey. <br>
                      We’re ok.</h1>
-                  <a href="#">
-                    <img src="images/yajirushi_2.svg" class="hero-yajirushi">
+                  <a href="#about" class="hero-link-img">
+                    <img src="images/yajirushi_2.svg" class="hero-img">
                   </a>
 
                 </div>
              </section>
              
-           <div class="section section-blue">
+           <div id="about" class="section section-blue">
              <div class="wrapper">
                <h3 class="header-text">
                  <span class="header-text-blue">Who we are.</span>
@@ -83,6 +101,22 @@
                            <h4 class="project-subtitle">Project Heaters</h4>
                            <h3 class="project-title">MakeReign.</h3>
                            <img class="project-arrow" src="images/yajirushi_1.svg">
+
+                           <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Link with href
+                            </a>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Button with data-target
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                          </div>
+
+
                            <div class="hr hr-blue"></div>
                          </a>
                        </div>
