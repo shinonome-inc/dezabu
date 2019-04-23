@@ -16,6 +16,7 @@ a:hover{
     padding:0px;
     margin:0px;
     max-width:100%;
+    overflow: hidden;
 }
 
 .nav-logo{
@@ -41,12 +42,20 @@ a:hover{
     padding-right:0px;
 }
 
+.nav-small{
+    display:none;
+}
+
 h1{
-  color: #000;
-  font-size: 140px;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: -8px;
+  margin-bottom:30px;
+}
+
+.hero-title{
+    color: #000;
+    font-size: 140px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -8px;
 }
 
 .square{
@@ -60,34 +69,39 @@ h1{
 .wrapper{
     position: relative;
     display:block;
-    margin-right:auto;
-    margin-left:auto;
+    margin:auto;
     width: 85%;
     max-width:1980px;
+    z-index: 900;
 }
 
 .hero{
     position: relative;
     padding-top:100px;
-    padding-bottom:120px;
+    padding-bottom:100px;
     width: 100%;
-    overflow: hidden;
 }
 
-.hero-yajirushi{
+.hero-link-img:hover{
+    transform: translate(0px, 40px);
+}
+
+
+.hero-link-img{
+    transition: transform 250ms ease-in-out;
+    display:inline-block;
+}
+
+.hero-img{
     height: 130px;
-    margin-top:30px
 }
 
 .section{
-    position: relative;
     padding:100px 0px 100px 0px;
 }
 
 .section-blue{
-    position: relative;
     background-color: #005cef;
-    z-index:600;
 }
 
 .w-title-blue{
@@ -182,7 +196,7 @@ h1{
 .services-link:hover{
     color:white;
     animation-name: fadeIn;
-    animation-duration: 1.2s; 
+    animation-duration: 1.5s; 
 }
 
 @keyframes fadeIn {
@@ -312,8 +326,13 @@ a:hover{
     float:right;
 }
 
-.footer-img:hover{
-    transform: translate(0px, -50px);
+.footer-arrow-img:hover{
+    transform: translate(0px, -60px);
+}
+
+.footer-arrow-img{
+    transition: transform 0.25s ease-in-out;
+    display: inline-block;
 }
 
 .footer-img{
