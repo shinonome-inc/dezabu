@@ -9,7 +9,7 @@ img{
 }
 
 a:hover{
-    color:none;
+    color:#005cef;
 }
 
 .container{
@@ -52,14 +52,13 @@ h1{
 .square{
     position: absolute;
     left: 35%;
-    z-index: 8;
+    z-index: 800;
     width: 1600px;
     max-width: none;
 }
 
 .wrapper{
     position: relative;
-    z-index: 900;
     display:block;
     margin-right:auto;
     margin-left:auto;
@@ -71,6 +70,8 @@ h1{
     position: relative;
     padding-top:100px;
     padding-bottom:120px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .hero-yajirushi{
@@ -86,6 +87,7 @@ h1{
 .section-blue{
     position: relative;
     background-color: #005cef;
+    z-index:600;
 }
 
 .w-title-blue{
@@ -179,8 +181,19 @@ h1{
 
 .services-link:hover{
     color:white;
-    
+    animation-name: fadeIn;
+    animation-duration: 1.2s; 
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
 
 a:hover{
     text-decoration: none;
@@ -299,6 +312,9 @@ a:hover{
     float:right;
 }
 
+.footer-img:hover{
+    transform: translate(0px, -50px);
+}
 
 .footer-img{
     width:50px;
