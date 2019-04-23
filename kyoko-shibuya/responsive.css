@@ -1,0 +1,9 @@
+@media(max-width:990px){
+.nav{
+    display:none;
+}
+
+.nav-small{
+    display:block;
+}
+}
