@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+}
+
+#hero {
+  position: absolute;
+}
+
+.hero-main {
+  position: relative;
+  top: 200px;
+}
+
+.nana {
+  top: 150px;
+  left: 80px; 
+  font-size: 100px;
+  z-index: 2;
+  letter-spacing: 20px;
+  color: rgba(33, 39, 98, 0);
+  -webkit-text-stroke: 1px #000;
+}
+
+.photo {
+  z-index: 1;
+}
