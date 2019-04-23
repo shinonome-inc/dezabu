@@ -36,9 +36,15 @@ body{
     margin: auto;
     padding: 15px 40px;
     border: 0.5px solid white;
+    filter:brightness(70%);
 
 
    
+}
+
+.buttom:hover{
+    transition: 1.0s;
+    filter:brightness(100%);
 }
 
 
@@ -61,12 +67,23 @@ body{
     margin: 10px;
 }
 
+.box2 img{
+    filter:brightness(70%);
+}
+
+.box2 img:hover{
+    transition: 1.0s ;
+    filter: brightness(100%);
+}
+
 .comment{
     position: absolute;
     font-size: 1.3rem;
     color: white;
     right: 30px;
     top: 30px;
+    z-index: 1;
+
 }
 
 .box2{
@@ -111,14 +128,24 @@ body{
     margin: 20px;
 }
 
-.box4{
+footer{
+    margin-bottom: 60px;
+    font-size: 0.85rem;
     display: block;
+}
+
+.box4 img{
     float: left;
-    bottom: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.box4 a{
+    float: left;
+    padding-right: 20px;
 }
 
 .box5{
-    display: block;
     right:0;
-    bottom: 10px;
+    
 }
