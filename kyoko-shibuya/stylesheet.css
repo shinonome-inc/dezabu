@@ -383,3 +383,22 @@ a:hover{
 .blue-2{
     height:800px;
 }
+
+.card-body{
+    padding:0;
+    border:none;
+}
+
+.project-thumbnail{
+    width:50%;
+}
+
+.project-movie{
+    width:100%;
+}
+
+.project-text{
+    padding:0 100px;
+    width:50%;
+}
+
