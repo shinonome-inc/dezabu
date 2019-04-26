@@ -384,21 +384,64 @@ a:hover{
     height:800px;
 }
 
-.card-body{
-    padding:0;
-    border:none;
-}
-
 .project-thumbnail{
-    width:50%;
+    padding:0;
 }
 
 .project-movie{
-    width:100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-text{
-    padding:0 100px;
-    width:50%;
+    margin: auto;
+    padding: 0 100px;
 }
 
+.row{
+    margin:0;
+    background: red;
+    height:600px;
+}
+
+.project-name{
+    margin-bottom: 40px;
+    font-family: NeueHaasGroteskMedium;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.project-synopsis{
+    margin-bottom: 60px;
+    font-family: NeueHaasGrotesk;
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.button-link{
+    display: block;
+    z-index: 10;
+    width: 198px;
+    padding: 26px 36px;
+    background-color: #ffdd18;
+    font-family: NeueHaasGroteskMedium;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.25s ease;
+    
+}
+
+.button-link:hover{
+    transform: translate(20px, -20px);
+    color:black;
+}
