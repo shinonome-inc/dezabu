@@ -16,7 +16,7 @@ li {
     padding: 10px;
     }
 
-.text:hover {
+.img:hover {
     background-color:black;
 }
 
@@ -29,6 +29,62 @@ li {
 }
 
 .hana {
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.ita {
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.kan{
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.rou {
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.umi {
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.ice {
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.eda {
+    position: absolute;
+    top: 400px;
+    left: 10vw;
+    width: 20%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.fude {
     position: absolute;
     top: 400px;
     left: 10vw;
