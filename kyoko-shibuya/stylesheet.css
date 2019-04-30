@@ -46,6 +46,24 @@ a:hover{
     display:none;
 }
 
+/* .btn-primary{
+    color:#005cef;
+    background:none;
+    border:none;
+} */
+
+.btn-primary:focus{
+    box-shadow: none;
+    border:none;
+    background:none;
+}
+
+.btn-primary, .btn-primary:hover, :active{
+    color:#005cef;
+    background:none;
+    border:none;
+}
+
 h1{
   margin-bottom:30px;
 }
@@ -386,17 +404,19 @@ a:hover{
 
 .project-thumbnail{
     padding:0;
+    height: 100%;
+    overflow: hidden;
 }
 
-.project-movie{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+video{
+    height: 600px;
+    position: relative;
+    left: -110px;
 }
 
 .project-text{
-    margin: auto;
-    padding: 0 100px;
+    padding: 100px 100px 0px 100px;
+    background: red;
 }
 
 .row{
@@ -408,7 +428,7 @@ a:hover{
 .project-name{
     margin-bottom: 40px;
     font-family: NeueHaasGroteskMedium;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     color: #fff;
 }
@@ -431,7 +451,7 @@ a:hover{
     display: block;
     z-index: 10;
     width: 198px;
-    padding: 26px 36px;
+    padding: 22px 36px;
     background-color: #ffdd18;
     font-family: NeueHaasGroteskMedium;
     color: #000;
