@@ -48,28 +48,31 @@
   line-height: 2;
   font-size: 34px;
 }
+.sec-title-sp {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (max-width: 576px) {
   .sec-title h3 {
     font-size: 180% !important;
   }
 }
-
 .btn-flat-border {
-  width: 85%;
+  width: 90%;
   padding: 0.6rem;
   margin-top: 30px;
   display: inline-block;
   text-decoration: none;
   color: #111;
-  border: solid 0.5px #111;
   border-radius: 3px;
   transition: .4s;
-  background-color: #fff;
+  background: url(https://nana-eyelash.com/img/base/kagi-01.png) left top/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-02.png) right top/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-03.png) left bottom/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-04.png) right bottom/7px 7px no-repeat #FFF;
 }
 .btn-flat-border:hover {
-  background: #F7F1AD;
   color: #111;
   text-decoration: none;
+  background: url(https://nana-eyelash.com/img/base/kagi-01.png) left top/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-02.png) right top/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-03.png) left bottom/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-04.png) right bottom/7px 7px no-repeat #F7F1AD;
 }
 /* ここから */
 header {
@@ -77,11 +80,9 @@ header {
   top: 0;
   left: 0;
 }
-
 .logo {
   background-color: #fff;
 }
-
 .wrapper {
   overflow-x: hidden;
   position: relative;
@@ -133,7 +134,6 @@ header {
 .menu-trigger.active span:nth-of-type(3) {
   transform: translateY(-12px) rotate(45deg);
 }
-
 nav {
   width: 550px;
   height: 100%;
@@ -161,7 +161,6 @@ nav li {
 .menu-trigger.active {
   transform: translateX(0px);
 }
-
 .menu {
   color: #111;
   text-align: left;
@@ -169,11 +168,9 @@ nav li {
   font-size: 26px;
   letter-spacing: 0.2em;
 }
-
 .menu:hover {
   color: #fff;
 }
-
 body {
   font-family: "futura-pt",sans-serif,"source-han-sans-japanese",sans-serif,"Meiryo, Yu Gothic","YuGothic","Roboto","Helvetica Neue","Hiragino Kaku Gothic Pro","Arial",sans-serif;
   font-size: 13px;
@@ -189,11 +186,16 @@ body {
     margin-left: 100px;
   }
 }
-
 @media (max-width:767px) {
   body {
     margin-right: 40px;
     margin-left: 40px;
+  }
+}
+@media (max-width:568px) {
+  body {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 #hero {
@@ -201,66 +203,51 @@ body {
   height: 800px;
   margin-top: 150px;
 }
-
 .title {
   position: relative;
   padding-top: 120px;
 }
-
 .title h1 {
   position: absolute;
   font-size: 90px;
   z-index: 2;
   letter-spacing: 25px;
   color: rgba(33, 39, 98, 0);
-  -webkit-text-stroke: 1px #333;
+  -webkit-text-stroke: 0.8px #000;
 }
-@media (max-width:992px) {
-  .title h1 {
-    font-size: 75px;
-  }
-  .title h6 {
-
-  }
-}
-
 .title h6 {
   position: absolute;
-  padding-top: 160px;
+  top: 240px;
   letter-spacing: 0.28rem;
   font-weight: bold;
   z-index: 2;
   font-size: 12px;
 }
-
 .title img {
   position: absolute;
-  padding-top: 260px;
+  top: 300px;
 }
-
 .title ul {
   list-style: none;
   position: absolute;
-  padding-top: 360px;
+  top: 420px;
   padding-left: 0;
 }
-
 .title li {
   font-size: 15px;
   display: block;
   letter-spacing: 0.6em;
   line-height: 3.5;
 }
-
 .photo-show {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: -50px;
   z-index: -2;
-  width: 100%;
+  width: 85%;
   height: 100%;
+  max-width: 100%;
 }
-
 .photo-show img {
   animation: show 8s infinite;
   height: auto;
@@ -268,30 +255,103 @@ body {
   opacity: 0;
   position: absolute; /*画像を全て重ねる*/
 }
-
 @keyframes show {
     0% {opacity:1}
     50% {opacity:1}
     51% {opacity:0}
     100% {opacity:0}
  }
-
 .photo-show img:nth-of-type(1) {
     animation-delay: 0s;
 }
-
 .photo-show img:nth-of-type(2) {
     animation-delay: 2s;
 }
-
 .photo-show img:nth-of-type(3) {
     animation-delay: 4s;
 }
-
 .photo-show img:nth-of-type(4) {
     animation-delay: 6s;
 }
-
+@media (max-width:992px) {
+  .title h1 {
+    font-size: 75px;
+  }
+  .title h6 {
+  }
+}
+@media (max-width:768px) {
+  .title {
+  }
+  .title h1 {
+    top: 300px;
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+  .title h6 {
+    top: 380px;
+    font-weight: lighter;
+  }
+  .title img {
+    top: 420px;
+    width: 54px;
+  }
+  .title ul {
+    list-style: none;
+    position: absolute;
+    padding-left: 60px;
+  }
+  .title li {
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+    line-height: 2;
+    display: inline-block;
+  }
+  .title ul li {
+    display: inline;
+  }
+}
+@media (max-width:576px) {
+  #hero {
+    height: 345px;
+    margin-top: 100px;
+  }
+  .title {
+    top: 30px;
+  }
+  .title h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    top: 150px;
+  }
+  .title h6 {
+    top: 200px;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  .title img {
+    width: 40px;
+    top: 250px;
+  }
+  .title ul {
+    list-style: none;
+    position: absolute;
+    padding-left: 50px;
+    top: 250px;
+  }
+  .title li {
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+    line-height: 2;
+    display: inline-block;
+  }
+  .title ul li {
+    display: inline;
+  }
+  .photo-show {
+    right: 0;
+  }
+}
 #sec01 {
   margin-top: 150px;
 }
@@ -359,6 +419,8 @@ body {
 }
 #sec02 {
   margin-top: 150px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 @media screen and (min-width:820px) {
@@ -496,25 +558,21 @@ body {
 .menu-price {
   font-weight: lighter;
 }
-
 .frame {
   border: 1px solid #333;
   margin-left: 7rem;
   margin-right: 7rem;
 }
-
 .sec04-menu {
   margin-top: -15px;
   display: inline-block;
 }
-
 .sec04-menu > p {
   font-size: 90%;
   background: #f9f9f9;
   display: inline-block;
   padding: 0 17px;
 }
-
 .sec04-menu > p > span {
   font-weight: bold;
   font-size: 110%;
@@ -553,6 +611,7 @@ body {
   .frame {
     margin-left: 0;
     margin-right: 0;
+    border: none;
   }
   .sec04-menu > p {
     font-size: 70%;
@@ -565,25 +624,25 @@ body {
 #sec05 {
   margin-top: 150px;
 }
-
 .staff-imgs {
   float: left;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .staff-img {
-  display: block;
+  display: inline-block;
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-
 .staff {
 	width: 139px;
 	height: 139px;
-	overflow:		hidden;
-	margin:			10px 8px 10px 16px;
-	position:		relative;
+	overflow: hidden;
+	margin: 10px 8px 10px 16px;
+	position: relative;
   float: left;
 }
 .staff .caption {
@@ -615,50 +674,48 @@ body {
   width: 100%;
   height: auto;
 }
-
 #sec06 {
   margin-top: 150px;
   justify-content: center;
 }
-
+.wrapper-06 {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .sec06-block {
   padding-left: 22.5px;
   padding-right: 22.5px;
-  width: 100%;
 }
-
+.sec06-block p {
+  width: 288px;
+}
 .sec06-block a {
   color: #333;
+  width: 288px;
 }
-
 .sec06-block a:hover {
   opacity: 0.6;
 }
-
 .sec06-block a:hover > h4 {
   opacity: 0.6;
 }
-
 .sec06-block a:hover > p {
   opacity: 0.6;
 }
-
 .sec06-block a:hover .btn-line {
   opacity: 0.6;
 }
-
 .sec06-block h4 {
   font-size: 170%;
   letter-spacing: .2em;
   font-weight: bold;
   padding-top: 30px;
 }
-
 .btn-line {
   padding-left: 35px;
   position: relative;
 }
-
 .btn-line:before {
   content: "";
   width: 20px;
@@ -668,7 +725,6 @@ body {
   left: 0;
   background-color: #555;
 }
-
 #sec07 {
   margin-top: 150px;
 }
@@ -698,7 +754,8 @@ body {
 }
 
 footer {
-  padding: 20px 30px;
+  margin-top: 150px;
+  padding: 20px 30px 0px;
   background-color: #F9F9F9;
   margin-left: -150px;
   margin-right: -150px;
@@ -728,13 +785,37 @@ footer {
 }
 .footer-reservation {
   margin: auto 0;
+  margin-left: -30px;
+  margin-right: -30px;
 }
 
 @media (max-width: 998px) {
   footer {
     padding: 20px 30px;
     background-color: #F9F9F9;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -100px;
+    margin-right: -100px;
   }
+}
+@media (max-width: 767px) {
+  footer {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
+@media (max-width: 576px) {
+  footer {
+    margin-left: -55px;
+    margin-right: -55px;
+  }
+  .submenu ul {
+    text-align: center;
+  }
+  .submenu ul li {
+    display: inline-block;
+  }
+}
+
+.fz-11 {
+  font-size: 11px;
 }
