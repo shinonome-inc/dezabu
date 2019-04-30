@@ -12,6 +12,10 @@ a:hover{
     color:#005cef;
 }
 
+ul{
+    list-style:none;
+}
+
 .container{
     padding:0px;
     margin:0px;
@@ -43,14 +47,29 @@ a:hover{
 }
 
 .nav-small{
-    display:none;
+    display: none;
+    float:right;
 }
 
-/* .btn-primary{
-    color:#005cef;
-    background:none;
-    border:none;
-} */
+.nav-small-w{
+    background:#fff !important;
+    text-decoration: none;
+    display: block;
+    padding:0;
+    position: relative;
+    top: 50px;
+}
+
+.nav-small-c{
+    float:left;
+    padding:0;
+}
+
+.nav-small-link{
+    background: #fff;
+    font-size:45px;
+    padding: 40px 600px 40px 50px;
+}
 
 .btn-primary:focus{
     box-shadow: none;
@@ -62,6 +81,12 @@ a:hover{
     color:#005cef;
     background:none;
     border:none;
+}
+
+.btn-nav-s{
+    float:right;
+    font-size:30px;
+    margin:30px 0px;
 }
 
 h1{
@@ -212,7 +237,11 @@ h1{
 .section-red{
     position: relative;
     background:red;
-    height:2000px;
+    background-image:url(images/team.svg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 500px;
+    height:2500px;
 }
 
 .hr{
@@ -292,8 +321,8 @@ a:hover{
 
 .person-img{
     position: relative;
-    left: 23px;
-    width:350px;
+    left: 30px;
+    width:500px;
     display: block;
 }
 
@@ -309,12 +338,12 @@ a:hover{
 
 .kage_1{
     position: absolute;
-    width: 373px;
+    width: 530px;
 }
 
 .person-title{
     color:white;
-    font-size:40px;
+    font-size:50px;
     text-align:left;
     font-weight:550;
     margin-top:40px;
@@ -323,8 +352,7 @@ a:hover{
 
 .person-label{
     color: hsla(0, 0%, 100%, .6);
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 25px;
     text-align: left;
     margin:0px;
 }
