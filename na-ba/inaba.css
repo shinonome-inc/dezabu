@@ -22,55 +22,55 @@ li {
 
 .text {
     position: absolute;
-    top: 80px;
-    left: 10vw;
+    top: 188px;
+    left: 155px;
     width: 50%;
     transition: left 1s linear, top 1s linear;
 }
 
 .hana {
     position: absolute;
-    top: 400px;
-    left: 10vw;
-    width: 20%;
+    top: 820px;
+    left: 1108px;
+    width: 25%;
     transition: left 1s linear, top 1s linear;
 }
 
 .ita {
     position: absolute;
-    top: 400px;
-    left: 10vw;
+    top: 920px;
+    left: 300px;
     width: 20%;
     transition: left 1s linear, top 1s linear;
 }
 
 .kan{
     position: absolute;
-    top: 400px;
-    left: 10vw;
+    top: 1200px;
+    left: 1200px;
     width: 20%;
     transition: left 1s linear, top 1s linear;
 }
 
 .rou {
     position: absolute;
-    top: 400px;
-    left: 10vw;
+    top: 1400px;
+    left: 200px;
     width: 20%;
     transition: left 1s linear, top 1s linear;
 }
 
 .umi {
     position: absolute;
-    top: 400px;
-    left: 10vw;
+    top: 1500px;
+    left: 1200px;
     width: 20%;
     transition: left 1s linear, top 1s linear;
 }
 
 .ice {
     position: absolute;
-    top: 400px;
+    top: 1800px;
     left: 10vw;
     width: 20%;
     transition: left 1s linear, top 1s linear;
@@ -78,7 +78,7 @@ li {
 
 .eda {
     position: absolute;
-    top: 400px;
+    top: 2000px;
     left: 10vw;
     width: 20%;
     transition: left 1s linear, top 1s linear;
@@ -86,7 +86,7 @@ li {
 
 .fude {
     position: absolute;
-    top: 400px;
+    top: 2200px;
     left: 10vw;
     width: 20%;
     transition: left 1s linear, top 1s linear;
