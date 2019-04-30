@@ -4,6 +4,28 @@
 }
 
 .nav-small{
-    display:block;
+    display:inline-block;
 }
+}
+
+@media(max-width:1100px){
+    .project-name {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .project-text {
+        padding: 100px 40px 0px 40px;
+    }
+
+    .project-synopsis {
+        margin-bottom: 60px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .row{
+        height:500px;
+    }
 }
