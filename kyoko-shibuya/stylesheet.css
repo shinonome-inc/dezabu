@@ -241,7 +241,7 @@ h1{
     background-repeat: no-repeat;
     background-size: 120%;
     background-position-y: 500px;
-    height:2500px;
+    overflow: auto;
 }
 
 .hr{
@@ -321,9 +321,9 @@ a:hover{
 
 .person-img{
     position: relative;
-    left: 30px;
-    width:500px;
-    display: block;
+    left: 28px;
+    width:41%;
+    display: inline-block;
 }
 
 .person-img-overlay{
@@ -338,7 +338,7 @@ a:hover{
 
 .kage_1{
     position: absolute;
-    width: 530px;
+    width: 43.5%;
 }
 
 .person-title{
@@ -359,6 +359,8 @@ a:hover{
 
 .is-right{
     float:right;
+    position: relative;
+    left: 550px;
 }
 
 .person-dog{
@@ -370,7 +372,6 @@ a:hover{
 }
 
 .person-bowz{
-    margin-right:50px;
     margin-top:-150px;
 }
 
@@ -476,7 +477,7 @@ video{
 }
 
 .button-link{
-    display: block;
+    display: inline-block;
     z-index: 10;
     width: 198px;
     padding: 22px 36px;
@@ -489,7 +490,15 @@ video{
     
 }
 
+.w-button{
+    color:black !important;
+}
+
 .button-link:hover{
     transform: translate(20px, -20px);
     color:black;
+}
+
+.extrude-right{
+    
 }
