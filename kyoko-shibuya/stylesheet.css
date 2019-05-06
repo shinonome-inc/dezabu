@@ -38,6 +38,21 @@ ul{
     color:black;
 }
 
+.nav-link:hover{
+    animation-name: fadeIn-nav;
+    animation-duration: 0.3s;
+}
+
+@keyframes fadeIn-nav {
+    0% {
+        opacity:1;
+        color: #000;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
 .nav-link-home{
     color:#005cef;
 }
@@ -58,15 +73,10 @@ ul{
     padding:0;
 }
 
-.nav-small-c{
-    float:left;
-    padding:0;
-}
-
 .nav-small-link{
     background: #fff;
-    font-size:45px;
-    padding: 40px 750px 40px 50px;
+    font-size:42px;
+    padding: 35px 750px 35px 0px;
 }
 
 .btn-primary:focus{
@@ -82,14 +92,14 @@ ul{
 }
 
 .btn-nav-s{
-    float:right;
-    font-size:30px;
-    margin:30px 0px;
+    margin:45px 0px;
+    padding:0;
 }
 
 h1{
   margin-bottom:30px;
 }
+
 
 .hero-title{
     color: #000;
