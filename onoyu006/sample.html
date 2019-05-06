@@ -7,7 +7,7 @@
   <title>Document</title>
   <style>
     html, body {
-      background-color: black;
+      background-color: white;
       height: 100vw;
       width: 100vw;
       margin: 0;
@@ -16,7 +16,7 @@
     .box {
       height: 50vw;
       width: 50vw;
-      background-color: black;
+      background-color:red;
       position: relative;
     }
     .box:before {
@@ -33,6 +33,7 @@
     }
     .box:after {
       content: "";
+      overflow: hidden;
       display: block;
       position: absolute;
       top: 10px;
@@ -57,5 +58,11 @@
       </ul>
     </div>
   </div>
+
+   <div class="box2">
+     <div></div>
+   </div>
+
+
 </body>
 </html>
