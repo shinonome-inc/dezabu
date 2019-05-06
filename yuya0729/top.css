@@ -196,6 +196,7 @@ body {
   body {
     margin-right: 20px;
     margin-left: 20px;
+    font-size: 11px;
   }
 }
 #hero {
@@ -274,6 +275,9 @@ body {
     animation-delay: 6s;
 }
 @media (max-width:992px) {
+  #hero {
+    height: 600px;
+  }
   .title h1 {
     font-size: 75px;
   }
@@ -378,7 +382,6 @@ body {
 }
 .concept p {
   margin-top: 30px;
-  font-size: 13px;
   color: #333;
   line-height: 2;
   letter-spacing: 0.15em;
@@ -411,10 +414,7 @@ body {
   }
   .concept h2 {
     margin-top: 50px !important;
-    font-size: 180%;
-  }
-  .concept p {
-    font-size: 12px;
+    font-size: 23.5px;
   }
 }
 #sec02 {
@@ -435,10 +435,10 @@ body {
     padding-left: 0;
   }
 }
-.salon a:hover > .fuga > p {
+.salon a:hover > .shop > p {
   color: rgba(51, 51, 51, 0.6);
 }
-.salon a:hover > .fuga > h4 {
+.salon a:hover > .shop > h4 {
   color: rgba(51, 51, 51, 0.6);
 }
 .salon a:hover img {
@@ -446,7 +446,6 @@ body {
 }
 .salon a p {
   color: #333;
-  font-size: 13px;
   line-height: 1.8;
   letter-spacing: .15em;
 }
@@ -460,7 +459,7 @@ body {
   display: inline-block;
   vertical-align: top;
 }
-.fuga {
+.shop {
   display: inline-block;
 }
 .full-img {
@@ -481,9 +480,6 @@ body {
   .full-img {
     width: 105px;
     height: 90px;
-  }
-  .salon a p {
-    font-size: 11px;
   }
 }
 
@@ -592,6 +588,7 @@ body {
   .frame {
     margin-left: 0;
     margin-right: 0;
+    border: none;
   }
 }
 @media (max-width: 576px) {
@@ -607,11 +604,6 @@ body {
   }
   .attention {
     font-size: 90%;
-  }
-  .frame {
-    margin-left: 0;
-    margin-right: 0;
-    border: none;
   }
   .sec04-menu > p {
     font-size: 70%;
@@ -674,6 +666,20 @@ body {
   width: 100%;
   height: auto;
 }
+@media (max-width: 576px) {
+  .staff {
+    width: 80px;
+    height: 80px;
+  }
+  .staff .mask {
+    width: 60px;
+    height: 60px;
+  }
+  .staff .caption {
+    padding-top: 0;
+  }
+}
+
 #sec06 {
   margin-top: 150px;
   justify-content: center;
@@ -742,13 +748,12 @@ body {
   font-size: 110%;
   font-family: "source-han-sans-japanese",sans-serif;
 }
-.sec07-btn {
+/* .sec07-btn {
   font-size: 12px;
-}
+} */
 #sec08 {
   margin-top: 150px;
 }
-
 .bgc-kagi {
   background: url(https://nana-eyelash.com/img/base/kagi-01.png) left top/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-02.png) right top/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-03.png) left bottom/7px 7px no-repeat,url(https://nana-eyelash.com/img/base/kagi-04.png) right bottom/7px 7px no-repeat;
 }
@@ -783,12 +788,33 @@ footer {
 .color-333 {
   color: #333;
 }
+
+.color-white {
+  color: #FFF;
+}
 .footer-reservation {
   margin: auto 0;
   margin-left: -30px;
   margin-right: -30px;
 }
+.bg-reservation {
+  background-color: #BFD3DB;
+}
+.bg-place {
+  background-color: #AFC9D2;
+}
+.fz-11 {
+  font-size: 11px;
+}
 
+.border-right {
+  border-right: 1px solid #fff !important;
+}
+
+.fuga::before {
+  content: "/";
+  padding-right: 1rem;
+}
 @media (max-width: 998px) {
   footer {
     padding: 20px 30px;
@@ -807,15 +833,13 @@ footer {
   footer {
     margin-left: -55px;
     margin-right: -55px;
+    margin-top: 0px;
   }
   .submenu ul {
     text-align: center;
+    margin: 0 auto;
   }
   .submenu ul li {
     display: inline-block;
   }
-}
-
-.fz-11 {
-  font-size: 11px;
 }
