@@ -22,7 +22,13 @@ body{
     display: inline-block;
     height: 62px;
 }
-
+#top{
+    max-width: 100%;
+    margin: 30px auto 45px;
+}
+.middlecontents{
+    float: left;
+}
 nav ul{
     display:inline-block;
     vertical-align: top;
@@ -53,7 +59,28 @@ nav ul{
     font-size: 1.3em;
     font-weight: 700;
 }
+.card{
+    float: left;
+    margin:20px;
+}
+.footer{
+    position: relative;
+}
+.inner-footer{
+    background-color: #e0e4eb;
+}
+.ft-pages{
+    width:30%;
+    margin-right: 5%;
+}
+#fblocks{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
 #footer-menu{
+    text-align: center;
     background-color: #58a9ef;
     max-width: 100%;
+
 }
