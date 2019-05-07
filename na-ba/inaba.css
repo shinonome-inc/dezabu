@@ -1,0 +1,154 @@
+
+body{
+    background-color:#a3b5c0;
+    color: white;
+     }
+
+
+
+ ul {
+    text-align: right;
+    position: absolute;
+
+
+    }
+    
+li {
+    display: inline;
+    padding: 10px;
+    }
+
+
+  footer{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    top:100vh;
+}
+
+
+.text {
+    position: absolute;
+    top: 10vw;
+    left: 9vw;
+    width: 50%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.hana {
+    position: absolute;
+    top: 49vw;
+    left: 66vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.ita {
+    position: absolute;
+    top: 60vw;
+    left: 19vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.kan{
+    position: absolute;
+    top: 76vw;
+    left: 58vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.rou {
+    position: absolute;
+    top: 92vw;
+    left: 10vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.umi {
+    position: absolute;
+    top: 106vw;
+    left: 41vw;
+    right: 5vw;
+    width: 50%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.ice {
+    position: absolute;
+    top: 150.6vw;
+    left: 22.5vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.eda {
+    position: absolute;
+    top: 164vw;
+    left: 58vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+.fude {
+    position: absolute;
+    top: 170vw;
+    left: 10vw;
+    width: 25%;
+    transition: left 1s linear, top 1s linear;
+}
+
+
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+  }
+
+  .wrapper{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+
+  a{
+      color: #fff
+  }
+
+.ikon {
+    position: fixed;
+    top: 47%;
+    left: 30px;
+}
+
+.sto{
+    text-align: center;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 47%;
+    right: 30px;
+    letter-spacing:2px;
+}
+
+.top{
+    position: fixed;
+    top: 93%;
+    left: 96%;
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    top: 2300px;
+    
+  }
