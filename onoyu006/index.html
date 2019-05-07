@@ -1,16 +1,388 @@
-<<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script> -->
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<h1>Hello,World by onoyu006!</h1>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="onoyu.css">
 
-</body>
+    <title>onoyuen!</title>
+  </head>
+  <body>
+    <div class="pos-f-t nav-bar">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-nav p-4">
+          <h5 class="text-white h4">MENU</h5>
+          <span class="text-muted"><a href="#about">ABOUT</a></span>
+          <span class="text-muted"><a href="#case">CASE</a></span>
+          <span class="text-muted"><a href="#art">ARTISIANS</a></span>
+          <span class="text-muted"><a href="#stories">STORIES AND INFO</a></span>
+          <span class="text-muted"><a href="#footer">CONTACT</a></span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="nav-bar facebook"></div>
+
+    <section class="hero">
+      <div class="container-fluid h-100">
+        <div class="row justify-content-center align-items-center h-100">
+          <div>
+            <img src="img/hero-logo.png" class="hero-logo pb-5" >
+            <p class="text-center text-white">
+              オーダーメイドの<br>
+              ジャパンエッセンスを付加価値に
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main" id="about">
+      <div class="container-fluid h-100">
+        <div class="row justify-content-center align-items-center h-100 p-5">
+          <div>
+            <div class="row">
+              <div class="col-12">
+                <img src="./img/about.png" class="hero-about pb-5">
+                <p class="text-center text-white aboutTxt">
+                  yuenとは、工芸の本来の形に寄り添いながら、<br>
+                  それらの"所以(ゆえん)"を"みえる価値"にし、使われるシーンと縁を結ぶ小さな仲介役です。<br>
+                  日本らしさを消費するのではなく、<br>
+                  互いに価値を高めていくパートナーとして紹介し、<br>
+                  レストランツールや内装、ファッションブランドなどのクリエーションのバックアップをします。
+                </p>
+              </div>
+            </div>
+            <div class="aboutCase text-white">
+              <div class="d-flex h-100 casemain">
+                <div class="aboutCaseLeft">
+                  <div class="content">
+                    <p class="caseTxt">
+                    <br>
+                    <span class="text_ttl">日本のエッセンス</span><br>
+                    -工芸etc
+                    </p>
+                  </div>
+                </div>
+                <div class="aboutCaseRight">
+                  <div class="content">
+                    <p>
+                      <span class="text_ttl">化学反応が起きるジャンル</span><br>
+                    -レストランツール<br>
+                    -内装<br>
+                    -ファッション
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="container" id="case">
+        <section class="case_sec">
+          <div class="d-flex ">
+            <div class="col-6">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="mb-4">
+                  <h2><img src="img/case-ttl.png" class="mb-2"></h2>
+                  <p>レストランや内装などのクリエーションバックアップをした事例をご紹介します。</p>
+                </div>
+                <div>
+                  <div class="embed-responsive embed-responsive-16by9 caseBox1 mb-4">
+                  </div>
+                  <p>[CASE1] スペイン料理×京焼のマリアージュの場合</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9 caseBox2 mb-2">
+                      </div>
+                  <p>[CASE1] スペイン料理×京焼のマリアージュの場合</p>
+                </div>
+                <div class="box-btn">
+                  All more
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container" id="art">
+        <section class="art_sec">
+          <div class="row h-100">
+            <div class="col-5">
+              <div>
+                <h2 class="mb-5"><img src="img/artisians-ttl.png"></h2>
+                <p class="mb-4">レストランや内装などのクリエーションバックアップをした事例をご紹介します。</p>
+                <div class="box-btn art">
+                    All ARTISIANS
+                </div>
+              </div>
+            </div>
+            <div class="col-6 d-flex">
+              <div class="col art01">
+                <img src="img/artisians-img01.jpg">
+                <p>太田勲&nbsp;Isao Ota</p>
+              </div>
+              <div class="col art02">
+                <img src="img/artisians-img02.jpg">
+                <p>新井悦子&nbsp;EtsukoArai</p>
+              </div>
+              <div class="col art03">
+                <img src="img/artisians-img03.jpg">
+                <p>紫田恭久&nbsp;YasuhisaShibata</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container" id="stories">
+        <section class="stories_sec">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-6 center-block text-center mb-5">
+              <h2 class="pb-3">
+                <img src="img/stories-ttl.png">
+              </h2>
+              <p class="pb-5 text-center">yuenが今考えること、産地や海外取材のレポートやイベント情報など、<br>
+                  様々な角度から工芸の本来の形に寄り添った情報をお届けします。</p>
+            </div>
+            <div class="col"></div>
+          </div>
+          <div class="row">
+            <div class="col d-flex">
+              <div class="col-4 st_img">
+                <img src="img/sakura-img.jpeg">
+              </div>
+              <div class="col-4 st_img">
+                <img src="img/popup-img.png">
+              </div>
+              <div class="col-4 st_img">
+                <img src="img/event-img.jpeg">
+              </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col"></div>
+              <div class="box-btn  mt-4 col-3">
+                all stories and Info
+              </div>
+            <div class="col"></div>              
+          </div>
+        </section>
+      </div>
+
+      <div class="container" id="footer">
+        <section class="p-5 footer bg-white">
+            <div class="m-3">
+              <div class="row text-dark otoiawase_box">
+                <div class="col-2 oto_ttl">Contact</div>
+                <div class="col-7">お気軽にお問い合わせください</div>
+                <div class="col-2 btn btn_fill"> contact</div>
+              </div>
+              <div class="row text-dark otoiawase_box2 mt-5">
+                <div class="col-2 oto_ttl">DOMAIN</div>
+                <div class="col-7">
+                  <p>工芸の本来の形に寄り添ったの商品企画、製造<br>
+                    工芸×飲食、工芸×ファッション等のコンサルティング<br>
+                    ブランディング企画<br>
+                    プロモーション企画<br>
+                    イベント企画<br>
+                    海外輸出のためのサポート（英訳・コンタクト窓口等）
+                  </p>
+                </div>
+                <div class="col-3"></div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <div class="copy_write">
+                <small>Copyright © 2019 yuen All rights reserved.</small>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+      </div>
+    </main>
+
+      <!-- <section class="case sec">
+        <div class="contInner">
+          <div class="head">
+            <h2 clss="sec_ttl">
+              <img src="img/case-ttl.png">
+              <p class="sec_lead">レストランや内装などのクリエーションバックアップをした事例をご紹介します。</p>
+            </h2>
+          </div>
+          <ul class="cardList caseList">
+            <li class="card">
+              <a href="https://medium.com/@yuenjp/case2-%E5%92%8C%E4%BB%8F%E6%8A%98%E8%A1%B7%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3-%E6%BC%86%E5%99%A8-%E4%BA%AC%E6%BC%86%E5%99%A8%E3%81%AE%E5%A0%B4%E5%90%88-4d9bcffc4217">
+                <div class="cardlist_img">
+                  <img src="img/case-img.jpeg" width="1600">
+                </div>
+                <p class="card_ttl">[CASE2]和仏折衷レストラン×漆/京漆器の場合 ::after</p>
+              </a>
+            </li>
+            <li class="card">
+              <a href="https://medium.com/@yuenjp/case1-%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E6%96%99%E7%90%86-%E4%BA%AC%E7%84%BC%E3%81%AE%E3%83%9E%E3%83%AA%E3%82%A2%E3%83%BC%E3%82%B8%E3%83%A5%E3%81%AE%E5%A0%B4%E5%90%88-ac9ab7a7156e">
+                <div class="cardlist_img">
+                  <img src="img/case-img2.jpeg" width="1600">
+                </div>
+                <p class="card_ttl">[CASE1]スペイン料理×京焼のマリアージュの場合 ::after</p>
+              </a>
+            </li>
+          </ul>
+          <div class="btn">
+            <a class="btn" href="https://medium.com/tag/yuenjp-case/latest"></a>
+          </div>
+        </div>
+      </section> -->
+    
+
+      <!-- <section class="artis">
+        <div class="contInner">
+          <div class="head">
+            <h2 class="sec_ttl">
+              <img src="img/artisians-ttl.png">
+            </h2>
+            <p class="sec_lead">今までの取り組みで関わってきた職人や作家などを紹介します。</p>
+            <a href="https://medium.com/tag/yuenjp-artisans/latest">"All artitians" ::after</a>
+          </div>
+          <ul class="artisList">
+            <li>
+              <a href="https://medium.com/@yuenjp/%E8%81%B7%E4%BA%BA%E7%B4%B9%E4%BB%8B-1f4921486183">
+                <figure>
+                  <img src="img/artisians-img01.jpg">
+                  <figcaption class="arti_caption">
+                    <span>太田勲</span>Isao Ota
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@yuenjp/%E8%81%B7%E4%BA%BA%E7%B4%B9%E4%BB%8B-9ee442ac87da">
+                  <figure>
+                    <img src="img/artisians-img02.jpg">
+                    <figcaption class="arti_caption">
+                      <span>新井悦子</span>Etsuko Arai
+                    </figcaption>
+                  </figure>
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@yuenjp/%E8%81%B7%E4%BA%BA%E7%B4%B9%E4%BB%8B-3a157d93c082">
+                  <figure>
+                    <img src="img/artisians-img03.jpg">
+                    <figcaption class="arti_caption">
+                      <span>紫田恭久</span>Yasuhisa Shibata
+                    </figcaption>
+                  </figure>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+
+      <!-- <section class="stories sec">
+        <div class="contInner">
+          <div class="head">
+            <h2 class="sec_ttl">
+              <img src="img/stories-ttl.png">
+            </h2>
+          </div>
+          <ul class="cardList storiesList">
+            <li class="st_card">
+              <a href="https://medium.com/@yuenjp/yuen%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8-%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8-3b708d7dd6e4">
+                <div class="storiesList_img">
+                  <img src="img/sakura-img.jpeg">
+                </div>
+                <p class="card_ttl">Yuenができること、したいこと</p>
+              </a>
+            </li>
+            <li class="st_card">
+              <a href="https://medium.com/@yuenjp/yuen%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8-%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8-3b708d7dd6e4">
+                <div class="storiesList_img">
+                  <img src="img/popup-img.png">
+                </div>
+                <p class="card_ttl">レストランツールのポップアップ展示</p>
+              </a>
+            </li>
+            <li class="st_card">
+              <a href="https://medium.com/@yuenjp/yuen%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8-%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8-3b708d7dd6e4">
+                <div class="storiesList_img">
+                  <img src="img/event-img.jpeg">
+                </div>
+                <p class="card_ttl">工芸×街中レストランイベント</p>
+              </a>
+            </li>
+          </ul>
+          <div class="storiesBtn">
+            <a href="https://medium.com/tag/yuenjp-stories-and-info/latest" class="btn">
+            All stories and Info</a>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <footer>
+        <div class="contInner">
+          <section class="footerInfo">
+            <div class="footerInfo_item">
+              <div class="footerInfo_cont">
+                <h2 class="footerInfo_ttl">CONTACT</h2>
+                <p>お気軽にお問い合わせください</p>
+              </div>
+            </div>
+            <div class="footerInfo_btn">
+              <a href="#" class="btn">Contact</a>
+            </div>
+            <div class="footerInfo_item">
+              <div class="footerInfo_cont">
+                <h2 class="footerInfo_ttl">DOMAIN</h2>
+                <ul class="footerInfo_list">
+                  <li>工芸の本来の形に寄り添ったの商品企画、製造</li>
+                  <li>工芸の本来の形に寄り添ったの商品企画、製造</li>
+                  <li>ブランディング企画</li>
+                  <li>プロモーション企画</li>
+                  <li>イベント企画</li>
+                  <li>海外輸出のためのサポート（英訳・コンタクト窓口等）</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <div class="copy_writing">
+            <small>Copyright © 2019 yuen All rights reserved.</small>
+          </div>
+        </div>
+      </footer>
+    </main> -->
+
+
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
