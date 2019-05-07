@@ -1,15 +1,129 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> 
-　　 <script src="main.js"></script> -->
-</head>
-<body>
-    <h1>Hello world!</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>S</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css"> 
+
+    <!--参考にしたサイト”http://www.sss-s.jp/”-->
+
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container-fluid h-100">
+          <div class="row h-100 justify-content-center align-items-center">
+              <img src="logo_wt.png" id="logo1">
+          </div>
+        </div>
+      </section>
+      <div class="buttom">
+        <a>ご購入</a>
+      </div>
+      <section class="box1">
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center">
+            <div class="into" class="col-md-12">
+              <br>
+              <p>Ｓゝゝ［エス］は、</p>
+              <br>
+              <p>日本が誇る伝統技術をもつ職人の方々とともに、</p>
+              <br>
+              <p>現代における「生活道具の創造」に取り組んでいます。</p>
+              <br>
+              <p>過去から現在、そして現在から未来へと、</p>
+              <br>
+              <p>日本の伝統文化を繋ぐべく、</p>
+              <br>
+              <p>世界へ向けた上質で豊かな暮らしを提案していきます</p>
+              <br>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section class="box2">
+        <div class="img1">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <p class="comment" >食</p>
+                <img src="thumb1.jpg" class="img-fluid w-100" id="1">
+              </div>
+              <div class="col-lg-6 col-12">
+                <p class="comment">住</p>
+                <img src="thumb2.jpg" class="img-fluid w-100" id="2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-12">
+                <p class="comment">菓</p>
+                <img src="thumb3.jpg" class="img-fluid w-100" id="3">
+              </div>
+              <div class="col-lg-4 col-12">
+                <p class="comment">酒</p>
+                <img src="thumb4.jpg" class="img-fluid w-100" id="4">
+              </div>
+              <div class="col-lg-4 col-12">
+                <p class="comment">茶</p>
+                <img src="thumb5.jpg" class="img-fluid w-100" id="5">
+              </div>
+            </div>
+         </div>
+       </div>
+      </section>
+      <section class="box3">
+        <div class="container-fluid">
+          <p class="text-center" id="box3-top" class="h-underline">
+            お知らせ
+          </p>
+          <div class="info">
+            <p class="text-center">2019.02.14<br>  期間限定商品のご案内</p>
+            <p class="text-center">018.12.142<br>  冬季休業のお知らせ</p>
+            <p class="text-center">2018.10.04<br>  展示販売のご案内</p>
+          </div>
+       </div>
+      </section>
+    </main>
     
-</body>
+    <footer>
+      <div class="box4">
+        <div class="container-fluid">
+          <div class>
+            <div>
+             <div class="footer-logo"><img src="logo_mark_bk.png"></div>
+              <p class="menu">
+                <a>Ｓゝゝについて</a>
+                <a>食 菓 茶 酒 住 の道具</a>
+                <a>ご購入</a>
+                <a>取扱店</a>
+                <a>お問い合わせ</a>
+                <a>メールニュース</a>
+                <a>Instagram</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="box5">
+        <div class="cntainer-fluid">
+          <div>
+              <p><a>© 2017 Ｓゝゝ</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
