@@ -55,3 +55,6 @@ p{
     text-align:right;
 }
 */
+#hero-video video{
+    width:100%;
+}
