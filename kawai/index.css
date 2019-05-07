@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Rotis Serif W01', 'ヒラギノ明朝 ProN W3', 'HiraMinProN-W3', YuMincho, '游明朝', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.7);
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "halt";
+    
+}
+
+header{
+    position: absolute;
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
+#hero{
+    height: 100vh;
+    background: url("kv2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+#logo1{
+   width: 130px;
+   height: auto;
+
+}
+
+.buttom{
+    position: absolute;
+    color: white;
+    right: 25px;
+    bottom: 25px;
+    margin: auto;
+    padding: 15px 40px;
+    border: 0.5px solid white;
+    filter:brightness(70%);
+}
+
+.buttom:hover{
+    transition: 1.0s;
+    filter:brightness(100%);
+}
+
+
+.main-logo img{
+    max-width: 150px;
+}
+
+.into{
+    display: block;
+    margin: 60px;
+}
+
+.into p{
+    margin: 10px;
+}
+
+.box2 img{
+    filter:brightness(70%);
+}
+
+.box2 img:hover{
+    transition: 1.0s ;
+    filter: brightness(100%);
+}
+
+.comment{
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+    right: 30px;
+    top: 30px;
+    z-index: 1;
+
+}
+
+.box2{
+    padding: 20px;
+}
+
+.col-lg-6{
+    padding: 0;
+}
+
+.col-lg-4{
+    padding: 0;
+
+}
+
+.box3{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#box3-top{
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    position: relative; 
+}
+
+.h-underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 50px;
+    height: 1px;
+    margin: auto;
+    background: currentColor;
+    content: "";
+    opacity: 0.3;
+}
+
+.info p{
+    margin: 20px;
+    padding: 10px;
+}
+
+.info br{
+    line-height: 50px;
+}
+
+footer{
+    margin-bottom: 60px;
+    font-size: 0.85rem;
+    display: block;
+}
+
+.footer-logo{
+    display: block;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 img{
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+
+.box4 a{
+    padding: 10px;
+}
+
+.box5 p{
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width:992px){
+    .into{
+     writing-mode: vertical-rl;
+    }
+    .box4 p{
+        float: left;
+        text-align: left;
+    }
+
+    .info br{
+        display: none;
+    }
+
+    .box5 p{
+        float: right;
+        text-align: right;
+        margin-right: 30px;
+        z-index: 1;
+    }
+    .footer-logo{
+        margin-left: 10px;
+        float: left;
+        text-align: left;
+    }
+
+  }
