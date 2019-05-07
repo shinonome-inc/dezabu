@@ -1,0 +1,279 @@
+.hero{
+    width:100%;
+    height: 100vh;
+    background-image: url(./img/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: cover;
+    background-position-x: 50%; 
+}
+
+.nav-bar{
+    position: fixed;
+    z-index: 15;
+}
+
+.bg-nav{
+    background-color:#000000;
+}
+
+.hero-logo{
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.main{
+    height: 100vh;
+    background-image: url(./img/about-bg-pc.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+}
+.hero-about{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.aboutTxt{
+    line-height: 2.5;
+    display: block;
+}
+.aboutCase{
+    margin-top:45px;
+    display: block;
+    background:url(./img/about-case-39.png)50% no-repeat;;
+    display: flex;
+    align-items: center;
+}
+.text_ttl{
+    font-size: 13px;
+}
+.casemain{
+
+    margin:0 auto;
+}
+.caseTxt{
+    padding:0 100px 0 0;
+    display: block;
+    width:300px;
+    height: 100px;
+    text-align: right;
+}
+
+.aboutCaseRight{
+    padding:0 0 0 100px;
+    text-align:left;
+    width:300px;
+    height: 100px;
+    display: block;
+}
+
+
+.box {
+    height: 12vw;
+    width: 12vw;
+    background-color: transparent;
+    position: relative;
+  }
+  .box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+    width: calc(100% - 20px);
+    /* background-color: green; */
+    border-radius: 50%;
+    border: solid 2px white;
+  }
+  .box:after {
+    content: "";
+    overflow:hidden;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    width: 50%;
+    background-color: black;
+  }
+  .box .content {
+    position: relative;
+    z-index: 22;
+  }
+
+  .contInner{
+      padding:0 20px;
+  }
+
+  main{
+      background-color: #222828;
+      color:white;
+  }
+
+  section{
+      margin:0;
+      padding:0;
+      border:0;
+  }
+
+.case_sec{
+    padding-bottom:300px;
+    padding-top:120px;
+}
+
+.art_sec{
+    padding:120px 0 100px 0;
+}
+
+.stories_sec{
+    padding:120px 0;
+}
+
+.fotter{
+    padding:15px 60px;
+}
+
+  .head{
+      position:absolute;
+      max-width: 320px;
+      margin-top:-20px;
+      text-align: left;
+  }
+
+  .caseBox1{
+      background-image: url(./img/case-img.jpeg);
+      object-fit: cover;
+      justify-content: center;
+      background-size: cover;
+  }
+
+  .caseBox2{
+      background-image: url(./img/case-img2.jpeg);
+      object-fit: cover;
+      justify-content: center;
+      background-size: cover;
+  }
+
+  .box-image {
+    height: 240px;
+  }
+
+  .box-btn {
+    border: solid 2px white;
+    padding: 12px 16px;
+    margin: 0 0px;
+    text-align:left;
+    width:200px;
+  }
+
+  .box-btn .art{
+    border: solid 2px white;
+    padding: 12px 0;
+    margin: 0 40px;
+    text-align:center;
+  }
+
+  .art01,.art02,.art03{
+      display:block;
+      margin:0 5px;
+  }
+
+  .art01{
+      padding-top:40px;
+  }
+
+  .art02{
+      padding:20px 0;
+  }
+
+  .art03{
+      padding-bottom:40px;
+  }
+
+  .st_img img{
+      object-fit: cover;
+      justify-content: center;
+      width:100%;
+      height: 15vw;
+  }
+  .otoiawase_box{
+    border-bottom: 1px solid #ddd;
+    padding:45px 0px;
+  }
+  .bg-nav a{
+      color:white;
+  }
+  
+
+  .otoiawase_bo2{
+    padding:45px 0px;
+  }
+  
+  .oto_ttl{
+      font-size:25px;
+  }
+
+  .copy_write{
+      padding:80px 0 60px 0;
+      text-align: center;
+  }
+  
+  .copy_write small{
+    font-size: 14px;
+  }
+
+  .btn_fill{
+    border: solid 2px #222828;
+    background-color: #222828;
+    color:white;
+    padding: 12px 16px;
+    text-align:center;
+  }
+
+  
+  /* .head img{
+      max-width:100%;
+  }
+
+  .contInner{
+      padding: 0 20px;
+  }
+
+  .sec_ttl{
+      margin-bottom:30px;
+  }
+  .sec_ttl img{
+      height:54px;
+      width:auto;
+      margin-bottom:30px;
+  }
+  .sec_lead{
+    font-size:1.5rem;
+}
+  .card:first-child{
+      margin-top:210px;
+  }
+
+  .card{
+    width: calc((100% - 120px) / 2);
+  }
+
+  .caseList{
+      margin-bottom:30px;
+  }
+
+  .cardlist_img img{
+      height:27vw;
+      object-fit: cover;
+      width: calc((100% - 120px) / 2);
+  }
+  .card a{
+      display:block;
+  }
+
+ul , li{
+    list-style: none;
+} */

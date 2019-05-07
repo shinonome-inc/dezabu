@@ -1,17 +1,438 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> 
-　　 <script src="main.js"></script> -->
-</head>
-<body>
-    <h1>Hello, World! powered by Kyoko-Shibuya</h1>
-    <a href="http://www.allrightgraphics.com/">ほーむぺーじだよ</a>
-    <a href="https://buttersand.com/">ほーむぺーじだよ２</a>
-    
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>origin/kyoko</title>
+  </head>
+  <body>
+      <div id="container" class="container">
+          <div class="wrapper">
+           <div class="w-nav">
+               <a href="#">
+                 <img src="images/logo.svg" class="nav-logo">
+               </a>
+
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link nav-link-home" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.okalpha.co/work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.okalpha.co/shop">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-contact" href="https://www.okalpha.co/contact">Contact</a>
+                </li>
+              </ul>
+
+              <div class="nav-small">
+                  <div>
+                    
+                    <a class="btn btn-primary btn-nav-s " data-toggle="collapse" href="#collapseExample-n" role="button" aria-expanded="false" aria-controls="collapseExample-n">
+                      <img src="images/icon-menu.svg" alt="">
+                    </a>
+                    
+                  </div>
+              </div>
+             
+              <div class="hr hr-thin"></div>
+
+              <div class="collapse" id="collapseExample-n" >
+                <div class=" nav-small-w">
+
+                  
+                    
+                      <a class="nav-link nav-link-home nav-small-link" href="#">Home</a>
+                    
+                      <a class="nav-link nav-small-link" href="https://www.okalpha.co/work">Work</a>
+                    
+                      <a class="nav-link nav-small-link" href="https://www.okalpha.co/shop">Shop</a>
+                    
+                      <a class="nav-link nav-link-contact nav-small-link" href="https://www.okalpha.co/contact">Contact</a>
+                    
+                  
+                  
+                </div>
+              </div>
+
+           </div>
+          </div>
+
+            <section class="hero">
+                <img src="images/square.svg" class="square">
+
+                <div class="wrapper wrapper-hero">
+                  <h1 class="hero-title">Hey. <br>
+                     We’re ok.</h1>
+                  <a href="#about" class="hero-link-img">
+                    <img src="images/yajirushi_2.svg" class="hero-img">
+                  </a>
+
+                </div>
+             </section>
+             
+           <div id="about" class="section section-blue">
+             <div class="wrapper">
+               <h3 class="header-text">
+                 <span class="header-text-blue">Who we are.</span>
+                    Okalpha is a concept and detail-focused animation studio based in the middle of nowhere.
+                 
+               </h3>
+               <p class="paragraph">
+                  After a small lifetime in advertising, 
+                  we loathe mediocrity and pine for the pretty. 
+                  We’re proud of keeping things simple: conceptualise engaging ideas and execute them beautifully. 
+                  If you’d like something to move, we’d love to help with that. 
+                  If you don’t, we’d love for you to follow us on our small journey through the galaxy and into a pile of intriguing work.
+               </p>
+             </div>
+           </div>
+
+           <div class="section">
+             <div class="wrapper">
+               <h2 class="w-title w-title-blue">Our Work.</h2>
+               <div class="hr hr-blue"></div>
+
+               <div class="w-list">
+                 <div class="w-list-items">
+                   <div class="w-list-item">
+
+                       <div class="project">
+                          <a class="project-arrow-link" href="https://www.okalpha.co/work/makereign">
+                            
+                            <img class="project-arrow-hidden" src="images/yajirushi_1.svg">
+                        
+                          </a>
+                         
+                          <a class="project-body btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          
+                              <h4 class="project-subtitle">Project Heaters</h4>
+                              <h3 class="project-title">MakeReign.</h3>
+                              <img class="project-arrow" src="images/yajirushi_1.svg">
+                          </a>
+                        
+                          <div class="collapse" id="collapseExample">
+                            <div class="row">
+                              <div class="project-thumbnail col-6" >
+                                
+                                  <video loop autoplay muted playsinline>
+                                    <source src="https://s3.us-east-2.amazonaws.com/okalphavideo/makereign/project_headers/videos/MakeReign_Thumbnail01.mp4">
+                                  </video>
+                                
+                              </div>
+
+                              <div class="project-text col-6">
+                                <div class="project-info">
+                                  <h4 class="project-name">Slick sites need slick headers.</h4>
+                                  <p class="project-synopsis">
+                                      Our besties at MakeReign needed abstract visuals to accompany each of their client case studies. We slowly raised our hand.
+                                  </p>
+                                  <div class="button">
+                                    <a class="button-link w-button" href="https://www.okalpha.co/work/makereign" >
+                                    View Project
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="hr hr-blue"></div>
+                       </div>
+
+                       <div class="project">
+                          <a class="project-arrow-link" href="https://www.okalpha.co/work/indiefin-explainers">
+                            
+                            <img class="project-arrow-hidden" src="images/yajirushi_1.svg">
+                        
+                          </a>
+
+                          <a class="project-body btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                               
+                            <h4 class="project-subtitle">Product animation</h4>
+                            <h3 class="project-title">indieFin.</h3>
+                            <img class="project-arrow" src="images/yajirushi_1.svg">
+                          </a>
+
+                          <div class="collapse" id="collapseExample2">
+                            <div class="row">
+                              <div class="project-thumbnail col-6">
+                                <video loop autoplay muted playsinline>
+                                  <source src="https://s3.us-east-2.amazonaws.com/okalphavideo/indiefin/product_animations/thumbnail/IndieFin_Product_Videos_Website_Thumbnail.mp4">
+                                </video>
+                              </div>
+
+                              <div class="project-text col-6">
+                                <div class="project-info">
+                                  <h4 class="project-name">We worked closely with IndieFin,</h4>
+                                  <p class="project-synopsis">
+                                    to inject some energy and detail into a category of motion that can easily become tiresome to absorb.
+                                  </p>
+                                  <div class="button">
+                                    <a class="button-link w-button" href="https://www.okalpha.co/work/indiefin-explainers" >
+                                    View Project
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="hr hr-blue"></div>
+                         
+                        </div>
+
+                        <div class="project">  
+                            <a class="project-arrow-link" href="https://www.okalpha.co/work/studio-collective">
+                            
+                              <img class="project-arrow-hidden" src="images/yajirushi_1.svg">
+                          
+                            </a>
+
+                            <a class="project-body btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample"> 
+                              <h4 class="project-subtitle">LogoReveal</h4>
+                              <h3 class="project-title">Studio Collective.</h3>
+                              <img class="project-arrow" src="images/yajirushi_1.svg">
+                            </a>
+                              
+                            <div class="collapse" id="collapseExample3">
+                              <div class="row">
+                                <div class="project-thumbnail col-6">
+                                  <video loop autoplay muted playsinline>
+                                    <source src="https://s3.us-east-2.amazonaws.com/okalphavideo/studio_collective/logo_reveal/thumbnail/Studio_Thumnail.mp4">
+                                  </video>
+                                </div>
+  
+                                <div class="project-text col-6">
+                                  <div class="project-info">
+                                    <h4 class="project-name">We are big fans of Studio Co.</h4>
+                                    <p class="project-synopsis">
+                                      So, we were rather lucky to be asked to help them with a logo reveal of their updated brand.
+                                    </p>
+                                    <div class="button">
+                                      <a class="button-link w-button" href="https://www.okalpha.co/work/studio-collective" >
+                                      View Project
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+  
+                              </div>
+                            </div>
+
+                            <div class="hr hr-blue"></div>
+                            
+                          </div>
+
+                       <div class="project">
+                          <a class="project-arrow-link" href="https://www.okalpha.co/work/wigroup-manifesto">
+                            
+                            <img class="project-arrow-hidden" src="images/yajirushi_1.svg">
+                        
+                          </a>
+
+                          <a class="project-body btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                
+                           <h4 class="project-subtitle">Manifesto</h4>
+                           <h3 class="project-title">wiGroup.</h3>
+                           <img class="project-arrow" src="images/yajirushi_1.svg">
+
+                          </a>
+
+                          <div class="collapse" id="collapseExample4">
+                            <div class="row">
+                              <div class="project-thumbnail col-6">
+                                <video loop autoplay muted playsinline>
+                                  <source src="https://s3.us-east-2.amazonaws.com/okalphavideo/wigroup/manifesto/thumbnail/wiGroup+-+Manifesto+Thumbnail_1.mp4">
+                                </video>
+                              </div>
+
+                              <div class="project-text col-6">
+                                <div class="project-info">
+                                  <h4 class="project-name">The time had come for a refresh,</h4>
+                                  <p class="project-synopsis">
+                                    and MakeReign asked us to breathe some life into a new manifesto for their clients at wiGroup.
+                                  </p>
+
+                                  <div class="button-link">
+                                    <a class="w-button" href="https://www.okalpha.co/work/wigroup-manifesto" >View Project</a>
+                                    <div class="extrude-right"></div>
+                                    <div class="extrude-right alt"></div>
+                                    <div class="extrude-bottom"></div>
+                                    <div class="extrude-bottom alt"></div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="hr hr-blue"></div>
+                          
+                        </div>
+
+
+                     </div>
+                   
+                 </div>
+               </div>
+             </div>
+           </div>
+
+           <div class="section section-blue">
+             <div class="wrapper">
+               <div class="lines">
+                 <h2 class="header lines-header">Services.</h3>
+
+                 <div class="lines">
+                 </div>
+                 <div class="lines">
+                 </div>
+                 <div class="lines">
+                 </div>
+   
+               </div>
+
+               <div class="services">
+                 <p class="services-body">
+                   <a class="services-link" href="#">Storyboarding.</a>
+                   <a class="services-link" href="#">Art Direction.</a>
+                   <a class="services-link" href="#">Creative Direction.</a>
+                   <a class="services-link" href="#">Film.</a>
+                   <a class="services-link" href="#">Editing.</a>
+                   <a class="services-link" href="#">Post Production.</a>
+                   <a class="services-link" href="#">Illustration.</a>
+                   <a class="services-link" href="#">2D Animation.</a>
+                   <a class="services-link" href="#">3D Animation.</a>
+                   <a class="services-link" href="#">UI Animation.</a>
+                   <a class="services-link" href="#">Product Rendering.</a> 
+                   <a class="services-link" href="#">Photography.</a>
+                 </p>
+               </div>
+             </div>
+           </div>
+
+           <div class="section section-red">
+             <div class="wrapper">
+                <h2 class="header team-header">Team Okalpha.</h3>
+             </div>
+             
+               <div class="wrapper">
+                 <div class="team-body">
+
+                   <div class="team-person">
+                     <div class="person">
+                       <div class="w-person-img">
+                         <img class="kage_1" src="images/kage.svg" alt="">
+                         <img class="person-img" src="images/g1.jpeg" alt="">
+                         <img class="person-img person-img-overlay" src="images/person_1_s.jpeg" alt="">
+                       </div>
+                     
+                       <h3 class="person-title">Grant Campbell.</h3>
+                       <p class="person-label">Founder and Animator</p>
+                    </div>
+
+                    <div class="person is-right person-dog">
+                        <div class="w-person-img">
+                          <img class="kage_1" src="images/kage.svg" alt="">
+                          <img class="person-img" src="images/g2.jpeg" alt="">
+                          <img class="person-img person-img-overlay" src="images/person_2_s.jpeg" alt="">
+                        </div>
+                      
+                        <h3 class="person-title">Titan the Labrador.</h3>
+                        <p class="person-label">Wellness Manager</p>
+                     </div>
+
+                    <div class="person person-woman">
+                        <div class="w-person-img">
+                          <img class="kage_1" src="images/kage.svg" alt="">
+                          <img class="person-img" src="images/g3.jpeg" alt="">
+                          <img class="person-img person-img-overlay" src="images/person_3_s.jpeg" alt="">
+                        </div>
+                      
+                        <h3 class="person-title">Jade Ashton Scully.</h3>
+                        <p class="person-label">Studio Manager</p>
+                   </div>
+  
+                    <div class="person is-right person-bowz">
+                        <div class="w-person-img">
+                         <img class="kage_1" src="images/kage.svg" alt="">
+                          <img class="person-img" src="images/g4.jpeg" alt="">
+                          <img class="person-img person-img-overlay" src="images/person_4_s.jpeg" alt="">
+                        </div>
+                      
+                        <h3 class="person-title">Dillan Fuller.</h3>
+                        <p class="person-label">Lead Animator</p>
+                    </div>
+                     
+                   </div>
+                 </div>
+
+                </div>
+           </div>
+
+
+           <div class="section section-blue blue-2">
+             <div class="wrapper">
+                <h2 class="header footer-header">Say Hello.</h2>
+                <div class="hr hr-white"></div>
+
+                <div class="footer-row">
+                  <div class="footer-containts">
+                    <p class="footer-p-bold">
+                        <strong>Email:</strong>
+                    </p>
+                    <div class="email-link">
+                      <h2 class="header-link">
+                        <a class="header-link-a" href="">info@okalpha.co</a>                        
+                      </h2>
+                      <div class="hr hr-white hidden"></div>
+                    </div>
+                    <p class="footer-p-bold">
+                        <strong>Address:</strong>
+                    </p>
+                    <p class="footer-p paragraph">
+                        Unit 12<br>
+                        Woodlands House<br>
+                        17 Woodlands Road<br>
+                        Woodstock <br>
+                        Cape Town<br>
+                        7915<br>
+                    </p>
+                  </div>
+
+                  <div class="footer-arrow">
+                    <a class="footer-arrow-img" href="#">
+                      <img class="footer-img" src="images/yajirushi_3.svg" alt="">
+                    </a>
+                  </div>
+                
+             
+                </div>
+             </div>
+            </div>
+
+              
+     </div>
+       
+         
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
