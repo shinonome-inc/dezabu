@@ -9,11 +9,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-   <a href="./kyoko-shibuya/index.html">しぶや〜</a>
-    <a href="./onoyu006/index.html">おのゆ〜</a>
-    <a href="./na-ba/index.html">イナバ</a>
-    <a href="./aoaoto/index.html">あおと</a>
-    <a href="./yuya0729/top.html">ゆうや</a>
-    <a href="./kawahara/index.html">かわはら</a>
+    <h1>Hello,World by Azukichi</h1>
 </body>
 </html>
